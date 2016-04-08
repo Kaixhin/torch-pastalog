@@ -10,7 +10,7 @@ luarocks install https://raw.githubusercontent.com/Kaixhin/torch-pastalog/master
 
 ## Usage
 
-See the [pastalog installation instructions](https://github.com/rewonc/pastalog#installation) for details on how to set up and start the pastalog Node.js server.
+See the [pastalog installation instructions](https://github.com/rewonc/pastalog#installation) for details on how to set up and start the pastalog Node.js server. Once running:
 
 ```lua
 local pastalog = require 'pastalog'
