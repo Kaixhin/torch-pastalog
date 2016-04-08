@@ -5,7 +5,7 @@ A Torch interface for [pastalog](https://github.com/rewonc/pastalog) - simple, r
 ## Installation
 
 ```sh
-luarocks install https://raw.githubusercontent.com/Kaixhin/torch-pastalog/master/rocks/pastalog-0-0.rockspec
+luarocks install https://raw.githubusercontent.com/Kaixhin/torch-pastalog/master/rocks/pastalog-scm-1.rockspec
 ```
 
 ## Usage

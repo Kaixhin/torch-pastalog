@@ -24,7 +24,7 @@ end
 
 -- Sends log data to pastalog server
 local function pastalog(modelName, seriesName, value, step)
-  return post({modelName = modelName, pointType = seriesName, pointValue = value, globalStep = step})
+  post({modelName = modelName, pointType = seriesName, pointValue = value, globalStep = step})
 end
 
 return pastalog
