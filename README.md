@@ -19,6 +19,7 @@ local pastalog = require 'pastalog'
       Machine learning code
 --]]
 
--- API is pastalog(modelName, seriesName, value, step)
+-- API is pastalog(modelName, seriesName, value, step, [url])
 pastalog('model1', 'validLoss', 2.5, 1)
+pastalog('model1', 'validLoss', 2.5, 1, 'http://localhost:8120/data')
 ```
